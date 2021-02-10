@@ -1,0 +1,42 @@
+.newCaroussel {
+    text-align: center;
+    margin: 100px 0 100px 0;
+    #newSlider {
+        img {
+            width: 600px;
+        }
+        .newImgSlider {
+            display: none;
+        }
+        .newActive {
+            display: block;
+        }
+    }
+    .buttons {
+        display: flex;
+        .inputButton {
+            display: none;
+        }
+        .activeInput {
+            display: block;
+        }
+        input {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: white;
+            border: none;
+            font-weight: bold;
+            position: relative;
+            left: 43%;
+            transform: translateY(-43%);
+        }
+        #newNext {
+            
+            background-color: #FEF9EF;
+        }
+        #newPrev {
+            
+            background-color: #FEF9EF;
+        }
+    }
+}
